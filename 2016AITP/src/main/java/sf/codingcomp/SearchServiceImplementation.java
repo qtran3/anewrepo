@@ -9,6 +9,7 @@ import sf.codingcomp.model.Platform;
 
 public class SearchServiceImplementation implements SearchService {
 
+	private SearchServiceImplementation1 sol1=new SearchServiceImplementation1();
 	@Override
 	public List<Movie> searchMovie(String searchValue) {
 		// TODO Auto-generated method stub
@@ -17,8 +18,8 @@ public class SearchServiceImplementation implements SearchService {
 
 	@Override
 	public List<Game> searchGame(String searchValue) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return sol1.searchGame(searchValue);
 	}
 
 	@Override
