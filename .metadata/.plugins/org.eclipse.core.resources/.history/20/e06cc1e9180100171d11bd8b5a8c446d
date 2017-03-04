@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class MainClass {
+	private ArrayList<E> a;
+	private int n;
+	private QuanSolution Qsol;
+	//Need to be implemented:
+	public int method1(int para1,double para2){
+		return  QuanSolution.
+	}
+	public int method2(){};
+

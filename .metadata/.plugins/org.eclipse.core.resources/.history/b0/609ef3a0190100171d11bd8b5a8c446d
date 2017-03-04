@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+public class QuanSolution{
+	private int n;
+	
+	//Need to be implemented:
+	public int method1(int para1,double para2){
+		return 0;
+	}
+//	public int method2(){};
+
+}
