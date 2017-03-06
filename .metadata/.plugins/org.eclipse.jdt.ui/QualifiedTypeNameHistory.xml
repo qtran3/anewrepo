@@ -8,6 +8,9 @@
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="NameComparator"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="QuanSolution"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ArrayBlockingQueue"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="sf.codingcomp.reader.Reader"/>
+<fullyQualifiedTypeName name="sf.codingcomp.SearchServiceImplementation1"/>
 </qualifiedTypeNameHistroy>
