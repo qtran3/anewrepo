@@ -12,8 +12,17 @@ public class SearchServiceImplementation1 implements SearchService {
 
 	@Override
 	public List<Movie> searchMovie(String searchValue) {
-		// TODO Auto-generated method stub
-		return null;
+		Reader myReader=new Reader();
+		List<Movie> allMovies=myReader.readMovies();
+		List<Movie> result=new ArrayList<Movie>();
+		result.clear();
+		for (int i=0;i<allMovies.size();i++){
+			Movie g=allMovies.get(i);
+			if (g.getTitle().toLowerCase().contains(searchValue)==true){
+				result.add(g);
+			}
+		}
+		return result;
 	}
 
 	@Override

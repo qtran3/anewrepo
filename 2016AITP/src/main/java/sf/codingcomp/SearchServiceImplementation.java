@@ -14,7 +14,7 @@ public class SearchServiceImplementation implements SearchService {
 	@Override
 	public List<Movie> searchMovie(String searchValue) {
 		// TODO Auto-generated method stub
-		return null;
+		return sol1.searchMovie(searchValue);
 	}
 
 	@Override
